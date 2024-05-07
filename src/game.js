@@ -11,4 +11,12 @@ function printQuestion(round) {
   util.main(round);
 }
 
-module.exports = { printMessage, printQuestion };
+function evaluateGuess(guess, correctAnswer){
+  if(guess === correctAnswer){
+    return 'Correct!'
+  } else {
+    return 'Incorrect!'
+  }
+}
+
+module.exports = { printMessage, printQuestion, evaluateGuess };
