@@ -6,7 +6,10 @@ function createDeck() {
     return deck;
 }
 
-// console.log("createDeck invocation>>>", createDeck());
+const deck = createDeck();
+
+// console.log({deck})
+
 
 module.exports = {
     createDeck,
