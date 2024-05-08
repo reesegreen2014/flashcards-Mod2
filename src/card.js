@@ -4,10 +4,9 @@ function createCard(id, question, answers, correctAnswer){
         question: question,
         answers: answers,
         correctAnswer: correctAnswer
-    }
+    };
 }
-
 
 module.exports = {
     createCard
-}
+};
