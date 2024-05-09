@@ -40,6 +40,7 @@ function calculatePercentCorrect(round){
 function endRound(round){
     const percentCorrect = calculatePercentCorrect(round);
     const result = `** Round Over! ** You answered ${percentCorrect}% of the questions correctly!`
+    console.log(result);
     return result;
 }
 
